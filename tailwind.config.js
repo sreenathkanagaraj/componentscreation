@@ -22,7 +22,7 @@ module.exports = {
                 'searchbar-fill': '#212327',
                 'button-stroke': '#546a7a',
                 'bluewash': '#75beef',
-                twitterblue: "#1d9bf0",
+                "twitterblue": "#1d9bf0",
             },
       width: {
       'width334': '334px',
