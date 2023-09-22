@@ -538,6 +538,10 @@ video {
   display: inline-flex;
 }
 
+.h-11 {
+  height: 2.75rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -556,6 +560,10 @@ video {
 
 .w-80 {
   width: 20rem;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .w-full {
@@ -605,11 +613,6 @@ video {
   background-color: rgb(249 249 249 / var(--tw-bg-opacity));
 }
 
-.bg-twitterblue-default {
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 155 240 / var(--tw-bg-opacity));
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -625,8 +628,17 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.font-\[\'Chirp\'\] {
+  font-family: 'Chirp';
 }
 
 .font-\[\'Inter\'\] {
@@ -652,9 +664,14 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-sky-500 {
+.text-neutral50 {
   --tw-text-opacity: 1;
-  color: rgb(14 165 233 / var(--tw-text-opacity));
+  color: rgb(249 249 249 / var(--tw-text-opacity));
+}
+
+.text-twitterblue-default {
+  --tw-text-opacity: 1;
+  color: rgb(29 155 240 / var(--tw-text-opacity));
 }
 
 .shadow {
@@ -670,6 +687,11 @@ video {
 }
 
 .hover\:bg-neutral200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(228 228 228 / var(--tw-bg-opacity));
+}
+
+.disabled\:bg-neutral200:disabled {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 228 / var(--tw-bg-opacity));
 }
