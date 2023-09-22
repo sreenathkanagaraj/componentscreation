@@ -542,6 +542,10 @@ video {
   height: 2.75rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -556,6 +560,10 @@ video {
 
 .w-20 {
   width: 5rem;
+}
+
+.w-56 {
+  width: 14rem;
 }
 
 .w-80 {
@@ -590,6 +598,10 @@ video {
   border-radius: 1.5rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -613,6 +625,16 @@ video {
   background-color: rgb(249 249 249 / var(--tw-bg-opacity));
 }
 
+.bg-twitterblue-default {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 155 240 / var(--tw-bg-opacity));
+}
+
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -631,6 +653,11 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-3\.5 {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
 }
 
 .text-center {
@@ -691,6 +718,12 @@ video {
   background-color: rgb(228 228 228 / var(--tw-bg-opacity));
 }
 
+.hover\:from-twitterblue-hover:hover {
+  --tw-gradient-from: #1871ca var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(24 113 202 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .disabled\:bg-neutral200:disabled {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 228 / var(--tw-bg-opacity));
@@ -699,4 +732,10 @@ video {
 .disabled\:bg-neutral50:disabled {
   --tw-bg-opacity: 1;
   background-color: rgb(249 249 249 / var(--tw-bg-opacity));
+}
+
+.disabled\:from-twitterblue-disabled:disabled {
+  --tw-gradient-from: #1e5d87 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(30 93 135 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
