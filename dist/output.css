@@ -538,6 +538,14 @@ video {
   display: inline-flex;
 }
 
+.h-0 {
+  height: 0px;
+}
+
+.h-0\.5 {
+  height: 0.125rem;
+}
+
 .h-11 {
   height: 2.75rem;
 }
@@ -560,6 +568,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-20 {
