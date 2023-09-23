@@ -29,9 +29,8 @@ module.exports = {
       width: {
         'width334': '334px',
       },
-      fontFamily: { 'Inter', sans- serif
-    };
+      fontFamily: ['Inter', 'sans-serif'], // Fixed the fontFamily section
+    }, // Remove the extra comma
   },
-
   plugins: [],
-}}
+};
